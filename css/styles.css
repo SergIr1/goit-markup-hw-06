@@ -934,7 +934,8 @@ margin-bottom: 50px;
     background-image: url(../images/Vector.svg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 11px;
+    background-size: contain;
+    background-origin: border-box;
     transition: background-color var(--transition-duration) var(--timing-function);
     border: none;
     /* border: 0.2px solid var(--white-text-color); */
