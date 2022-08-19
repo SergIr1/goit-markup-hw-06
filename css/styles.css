@@ -941,7 +941,7 @@ margin-bottom: 50px;
 }
 
 .backdrop-form-check:focus + .backdrop-form-check-desc::before{
-    border: 2px solid var(--accent-text-color);
+    outline: 2px solid var(--accent-text-color);
 }
 
 
