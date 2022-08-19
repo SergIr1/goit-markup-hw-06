@@ -926,7 +926,7 @@ margin-bottom: 50px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 7px;
-    transition: border-color var(--transition-duration) var(--timing-function);
+    transition: border-color var(--transition-duration) var(--timing-function), outline var(--transition-duration) var(--timing-function);
 }
 
 .backdrop-form-check:checked + .backdrop-form-check-desc::before{
